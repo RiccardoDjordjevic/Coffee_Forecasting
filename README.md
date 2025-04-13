@@ -5,14 +5,15 @@ This repository contains an LSTM-based time series forecasting model designed to
 ## Overview
 
 - **Objective**: Predict next-day coffee futures prices using LSTM neural networks.
+- **Forecast Target**: The model forecasts the **WisdomTree Coffee Index**, which tracks a diversified basket of coffee futures including both **Arabica** and **Robusta**. This index reflects the overall performance of the global coffee futures market.
 - **Model**: Multi-layer LSTM with dropout regularization.
 - **Training**: Includes data normalization, sequence generation, hyperparameter tuning, and early stopping.
 - **Evaluation**: Model performance assessed using RMSE, MAE, and MAPE across 5 folds.
 
 ## Files
 
-- `coffee_futures_lstm_1day.py`: Full Python script for data loading, preprocessing, model training, cross-validation, evaluation, and visualization.
-- `coffee_futures_lstm_1day_model.h5`: Saved Keras model trained on the best-performing hyperparameters (generated after training).
+- `LSTM_Coffee.ipynb`: Full Python script for data loading, preprocessing, model training, cross-validation, evaluation, and visualization.
+- `coffee_futures_lstm_1day_model.h5` & `coffee_futures_lstm_5day_model.h5`: Saved Keras model trained on the best-performing hyperparameters (generated after training).
 - `Coffee_Futures_WisdomTree.csv`: Historical price data (not included in this repo – place your dataset in the `sample_data/` directory).
 
 ## How to Use
@@ -47,4 +48,4 @@ This project is open-source and available under the MIT License.
 
 ---
 
-Let me know if you'd like a separate section for Colab users or want to include sample outputs (like plots or metrics screenshots).
+Let me know if you'd like this tailored more for finance professionals or researchers.
