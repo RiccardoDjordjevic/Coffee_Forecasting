@@ -1,7 +1,3 @@
-Sure! Here's a clean and professional `README.md` you can use for your GitHub repo:
-
----
-
 # Coffee Futures LSTM Forecasting
 
 This repository contains an LSTM-based time series forecasting model designed to predict **1-day ahead prices** of coffee futures. The model uses historical daily closing prices and is optimized through rolling window cross-validation.
