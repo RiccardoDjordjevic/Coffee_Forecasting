@@ -1,6 +1,6 @@
 # Coffee Futures LSTM Forecasting
 
-This repository contains an LSTM-based time series forecasting model designed to predict **1-day ahead prices** of coffee futures. The model uses historical daily closing prices and is optimized through rolling window cross-validation.
+This repository contains an LSTM-based time series forecasting model designed to predict **1-day ahead prices** of coffee futures. The model uses historical daily closing prices and is optimized through rolling window cross-validation. You can find [here](https://drive.google.com/file/d/1CjMYtQ2PzqDNbzIcKL7wEQhgKPPb9w_A/view?usp=sharing) the complete non-technical report and interpretation of the results. Click [here](https://drive.google.com/drive/folders/1N9Y2JnW5kP2UoiRfAKJYcnDZ-La1N2dl?usp=sharing) for more reports and resources from BvvK, the Utrecht University Investment Society.
 
 ## Overview
 
